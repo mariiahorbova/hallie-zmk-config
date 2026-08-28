@@ -68,14 +68,14 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+                <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         raise_layer {
             bindings = <
 &mmv MOVE_UP    &kt EXCL          &kp AT_SIGN  &kt HASH   &kp DOLLAR         &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &mmv MOVE_LEFT  &kp PRINTSCREEN   &kp GRAVE    &kp TILDE  &kp SINGLE_QUOTE   &trans         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH          &mmv MOVE_RIGHT
-&trans          &kp C_PLAY_PAUSE  &trans       &trans     &kp DOUBLE_QUOTES  &trans         &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &trans
+&trans          &kp C_PLAY_PAUSE  &trans       &trans     &kp DOUBLE_QUOTES  &trans         &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE               &mmv MOVE_DOWN
                                                &trans     &trans             &trans         &trans          &trans         &trans
             >;
 
